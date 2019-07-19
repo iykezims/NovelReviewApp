@@ -323,3 +323,24 @@ p.alert, p.notice {
 		margin-top: 0;
 	}
 }
+
+div#footer {
+
+    @include background-tile;
+
+    
+    background: white; 
+
+    padding: 3px;
+
+    border:2px solid gray;
+
+    max-width: 994px;
+
+    text-align: center;
+
+    min-width: 744px;
+
+    margin: auto;
+
+}
